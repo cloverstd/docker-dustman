@@ -1,0 +1,9 @@
+package: github.com/cloverstd/docker-dustman
+import:
+- package: github.com/docker/docker
+  version: ~1.13.0-rc6
+  subpackages:
+  - client
+- package: github.com/robfig/cron
+  version: ~1.0.0
+- package: gopkg.in/yaml.v2

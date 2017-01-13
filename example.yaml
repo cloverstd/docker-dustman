@@ -1,0 +1,4 @@
+docker_uri: unix:///var/run/docker.sock
+label: dcos-marathon-id  # special label to clean
+crontab: 30 8 14 * * *  # schedules to clean # ref https://godoc.org/github.com/robfig/cron#hdr-Predefined_schedules
+image: true  # use true to clean images which tag is none

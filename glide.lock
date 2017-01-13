@@ -1,0 +1,58 @@
+hash: b9659c0e538c54f7f65f6d91161972f6e73c72205cf5f024d0463dff3aa9be6f
+updated: 2017-01-13T13:17:33.220673574+08:00
+imports:
+- name: github.com/docker/distribution
+  version: c6f63e298ebb1dd0a2ce5ada0c0d39e248132634
+  subpackages:
+  - digest
+  - reference
+- name: github.com/docker/docker
+  version: 2f2d055013b2adabf8a526bf565602c16b30aecd
+  subpackages:
+  - api/types
+  - api/types/blkiodev
+  - api/types/container
+  - api/types/events
+  - api/types/filters
+  - api/types/mount
+  - api/types/network
+  - api/types/reference
+  - api/types/registry
+  - api/types/strslice
+  - api/types/swarm
+  - api/types/time
+  - api/types/versions
+  - api/types/volume
+  - client
+  - pkg/tlsconfig
+- name: github.com/docker/go-connections
+  version: f549a9393d05688dff0992ef3efd8bbe6c628aeb
+  subpackages:
+  - nat
+  - sockets
+  - tlsconfig
+- name: github.com/docker/go-units
+  version: 0bbddae09c5a5419a8c6dcdd7ff90da3d450393b
+- name: github.com/Microsoft/go-winio
+  version: 862b6557927a5c5c81e411c12aa6de7e566cbb7a
+- name: github.com/opencontainers/runc
+  version: 5653ced544b1fa9d9623f12aaf9601bf1aefc013
+  subpackages:
+  - libcontainer/user
+- name: github.com/pkg/errors
+  version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
+- name: github.com/robfig/cron
+  version: b024fc5ea0e34bc3f83d9941c8d60b0622bfaca4
+- name: github.com/Sirupsen/logrus
+  version: 55eb11d21d2a31a3cc93838241d04800f52e823d
+  subpackages:
+  - formatters/logstash
+- name: golang.org/x/net
+  version: 4876518f9e71663000c348837735820161a42df7
+  subpackages:
+  - context
+  - context/ctxhttp
+  - proxy
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+testImports: []
